@@ -2,7 +2,7 @@
 const templates={
     home:`
     <div id="home" class="active">
-        <img src="../img/banner-central-jpg-1536x751.jpg" alt="bannerCentral" class="bannerCentral">
+        <img src="./img/banner-central-jpg-1536x751.jpg" alt="bannerCentral" class="bannerCentral">
         <div class="cardPrincipal">
             <div class="card">
             <i class="fa-solid fa-check icono"></i>
@@ -27,7 +27,7 @@ const templates={
     //Se creo una seccion para mostrar asesoria
     asesoria: `
     <div class="asesoria active" id="asesoria">
-        <img src="../img/inpulsa-tu-negocio-psym69fm86ap2py85u3ysrm4lj25fhapaav3m1k26o.jpg" alt="">
+        <img src="./img/inpulsa-tu-negocio-psym69fm86ap2py85u3ysrm4lj25fhapaav3m1k26o.jpg" alt="">
         <div class="texto">
           <h3 class="titulo">PROPULSAMOS TU EMPRESA</h3>
           <p>Tenemos a tu disposición un equipo que mejorará e impulsará tu empresa.
@@ -66,13 +66,13 @@ const templates={
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../img/1-scaled.jpg" class="d-block w-100" alt="...">
+        <img src="./img/1-scaled.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../img/2-scaled.jpg" class="d-block w-100" alt="...">
+        <img src="./img/2-scaled.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../img/3-scaled.jpg" class="d-block w-100" alt="...">
+        <img src="./img/3-scaled.jpg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -99,13 +99,13 @@ const templates={
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../img/1-arcade.jpg" class="d-block w-90 " alt="...">
+        <img src="./img/1-arcade.jpg" class="d-block w-90 " alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../img/2-arcade.jpg" class="d-block w-90" alt="...">
+        <img src="./img/2-arcade.jpg" class="d-block w-90" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="../img/3-arcade.jpg" class="d-block w-90" alt="...">
+        <img src="./img/3-arcade.jpg" class="d-block w-90" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
