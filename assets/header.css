@@ -1,0 +1,64 @@
+.bannerCentral{
+    width: 100%;
+    height: 50vh;
+}
+.cardPrincipal{
+    margin-top:10px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+   padding: 10px;
+
+}
+.card h5{
+    font-weight: bold;
+}
+.card{
+    width: 90%;
+    height: 30vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    font-weight: bold;
+}
+.icono{
+    font-size: 3rem;
+    padding: 10px;
+}
+.navbar{
+    background-color: #ffdfdf;
+    font-size: 1.3rem;
+    font-weight:bold;
+    text-align:center;
+  
+}
+.navbar-collapse a:hover{
+    background-color:#398ad6;
+    border-color:#398ad6;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+footer{
+    text-align: center;
+    font-size: .5rem;
+}
+@media screen and (min-width: 720px){
+    .navbar-collapse {
+        display: flex;
+        align-items: flex-end;
+        margin-left: 35rem;
+    }
+    .bannerCentral{
+        height: 80vh;
+    }
+    .cardPrincipal{
+        flex-direction: row;
+    }
+}

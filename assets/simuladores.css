@@ -1,0 +1,15 @@
+.simuladores{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;  
+    width:100%;
+}
+
+@media screen and (min-width: 720px) {
+    .simuladores{
+        flex-direction: row;
+        margin-left: 10%;
+        width:80%;
+    }
+}
